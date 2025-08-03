@@ -318,6 +318,10 @@ Version: 1.0
   .font-200 {
     font-weight: 200;
   }
+
+  .font-100 {
+    font-weight: 100;
+  }
   
   .form-group {
     position: relative;
