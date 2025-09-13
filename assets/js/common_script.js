@@ -53,7 +53,7 @@
         navMenu.find("li a").each(function() {
             if ($(this).children('.dd-trigger').length < 1) {
                 if ($(this).next().length > 0) {
-                    $(this).append('<span class="dd-trigger"><i class="far fa-angle-down"></i></span>')
+                    $(this).append('<span class="dd-trigger"><i class="fa-solid fa-angle-down"></i></span>')
                 }
             }
         });

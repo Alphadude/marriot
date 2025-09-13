@@ -6,8 +6,8 @@
 .fab,
 .fad,
 .fal,
-.far,
-.fas {
+.fa-solid,
+.fa-solid {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -90,15 +90,15 @@
 .fa.fa-pull-left,
 .fab.fa-pull-left,
 .fal.fa-pull-left,
-.far.fa-pull-left,
-.fas.fa-pull-left {
+.fa-solid.fa-pull-left,
+.fa-solid.fa-pull-left {
   margin-right: 0.3em;
 }
 .fa.fa-pull-right,
 .fab.fa-pull-right,
 .fal.fa-pull-right,
-.far.fa-pull-right,
-.fas.fa-pull-right {
+.fa-solid.fa-pull-right,
+.fa-solid.fa-pull-right {
   margin-left: 0.3em;
 }
 .fa-spin {
@@ -2440,13 +2440,13 @@
 .fa-fantasy-flight-games:before {
   content: "\f6dc";
 }
-.fa-farm:before {
+.fa-fa-solidm:before {
   content: "\f864";
 }
-.fa-fast-backward:before {
+.fa-fa-solidt-backward:before {
   content: "\f049";
 }
-.fa-fast-forward:before {
+.fa-fa-solidt-forward:before {
   content: "\f050";
 }
 .fa-faucet:before {
@@ -4492,7 +4492,7 @@
 .fa-passport:before {
   content: "\f5ab";
 }
-.fa-pastafarianism:before {
+.fa-pastafa-solidianism:before {
   content: "\f67b";
 }
 .fa-paste:before {
@@ -4882,7 +4882,7 @@
 .fa-rabbit:before {
   content: "\f708";
 }
-.fa-rabbit-fast:before {
+.fa-rabbit-fa-solidt:before {
   content: "\f709";
 }
 .fa-racquet:before {
@@ -5119,7 +5119,7 @@
 .fa-sad-tear:before {
   content: "\f5b4";
 }
-.fa-safari:before {
+.fa-safa-solidi:before {
   content: "\f267";
 }
 .fa-salad:before {
@@ -5299,7 +5299,7 @@
 .fa-ship:before {
   content: "\f21a";
 }
-.fa-shipping-fast:before {
+.fa-shipping-fa-solidt:before {
   content: "\f48b";
 }
 .fa-shipping-timed:before {
@@ -6019,10 +6019,10 @@
 .fa-tachometer-alt-average:before {
   content: "\f624";
 }
-.fa-tachometer-alt-fast:before {
+.fa-tachometer-alt-fa-solidt:before {
   content: "\f625";
 }
-.fa-tachometer-alt-fastest:before {
+.fa-tachometer-alt-fa-solidtest:before {
   content: "\f626";
 }
 .fa-tachometer-alt-slow:before {
@@ -6034,10 +6034,10 @@
 .fa-tachometer-average:before {
   content: "\f629";
 }
-.fa-tachometer-fast:before {
+.fa-tachometer-fa-solidt:before {
   content: "\f62a";
 }
-.fa-tachometer-fastest:before {
+.fa-tachometer-fa-solidtest:before {
   content: "\f62b";
 }
 .fa-tachometer-slow:before {
@@ -9012,13 +9012,13 @@
 .fad.fa-fan-table:after {
   content: "\10e004";
 }
-.fad.fa-farm:after {
+.fad.fa-fa-solidm:after {
   content: "\10f864";
 }
-.fad.fa-fast-backward:after {
+.fad.fa-fa-solidt-backward:after {
   content: "\10f049";
 }
-.fad.fa-fast-forward:after {
+.fad.fa-fa-solidt-forward:after {
   content: "\10f050";
 }
 .fad.fa-faucet:after {
@@ -10629,7 +10629,7 @@
 .fad.fa-passport:after {
   content: "\10f5ab";
 }
-.fad.fa-pastafarianism:after {
+.fad.fa-pastafa-solidianism:after {
   content: "\10f67b";
 }
 .fad.fa-paste:after {
@@ -10947,7 +10947,7 @@
 .fad.fa-rabbit:after {
   content: "\10f708";
 }
-.fad.fa-rabbit-fast:after {
+.fad.fa-rabbit-fa-solidt:after {
   content: "\10f709";
 }
 .fad.fa-racquet:after {
@@ -11280,7 +11280,7 @@
 .fad.fa-ship:after {
   content: "\10f21a";
 }
-.fad.fa-shipping-fast:after {
+.fad.fa-shipping-fa-solidt:after {
   content: "\10f48b";
 }
 .fad.fa-shipping-timed:after {
@@ -11880,10 +11880,10 @@
 .fad.fa-tachometer-alt-average:after {
   content: "\10f624";
 }
-.fad.fa-tachometer-alt-fast:after {
+.fad.fa-tachometer-alt-fa-solidt:after {
   content: "\10f625";
 }
-.fad.fa-tachometer-alt-fastest:after {
+.fad.fa-tachometer-alt-fa-solidtest:after {
   content: "\10f626";
 }
 .fad.fa-tachometer-alt-slow:after {
@@ -11895,10 +11895,10 @@
 .fad.fa-tachometer-average:after {
   content: "\10f629";
 }
-.fad.fa-tachometer-fast:after {
+.fad.fa-tachometer-fa-solidt:after {
   content: "\10f62a";
 }
-.fad.fa-tachometer-fastest:after {
+.fad.fa-tachometer-fa-solidtest:after {
   content: "\10f62b";
 }
 .fad.fa-tachometer-slow:after {
@@ -12760,10 +12760,10 @@
     url(../webfonts/fa-regular-400.svg#fontawesome) format("svg");
 }
 .fal,
-.far {
+.fa-solid {
   font-family: "Font Awesome 5 Pro";
 }
-.far {
+.fa-solid {
   font-weight: 400;
 }
 @font-face {
@@ -12779,7 +12779,7 @@
     url(../webfonts/fa-solid-900.svg#fontawesome) format("svg");
 }
 .fa,
-.fas {
+.fa-solid {
   font-family: "Font Awesome 5 Pro";
   font-weight: 900;
 }
