@@ -1788,3 +1788,88 @@ ul.ratings li {
     text-align: center;
   }
 }
+
+/*
+--- 01. Hero Slider Styles ---
+*/
+
+/* Center hero content horizontally and place it lower in the hero (near the bottom) */
+.hero-slider-section .hero-slider,
+.hero-slider-section .hero-slide-item {
+  min-height: 100vh;              /* make hero full viewport height */
+  display: flex;
+  align-items: flex-end;          /* push content towards the bottom */
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Center the column horizontally and limit its width so content stays centered */
+.hero-slide-item .row {
+  justify-content: center;
+  color: #ffffff;
+}
+.hero-slide-item .col-xl-8 {
+  margin: 0 auto;
+  max-width: 900px;               /* adjust max width as needed */
+}
+
+/* Visual spacing for the text block; tune padding-bottom to move content up/down */
+.hero-slide-item .hero-content {
+  padding: 60px 15px;             /* space inside the content box */
+  margin-bottom: 40px;            /* additional offset from bottom (increase to move up) */
+  position: relative;
+  text-align: center; 
+  color: #ffffff;            /* center text for most viewports */
+}
+
+/* Button spacing */
+.hero-slide-item .hero-content .theme-btn {
+  margin-top: 20px;
+}
+
+.hero-slide-item .hero-content h1 {
+    color: #ffffff;
+}
+
+/* Desktop: keep heading left-aligned if desired */
+@media (min-width: 992px) {
+  /* If you prefer left-aligned text on large screens, uncomment below */
+  /* .hero-slide-item .hero-content { text-align: left; } */
+}
+
+/* Mobile tweaks */
+@media (max-width: 991px) {
+  .hero-slide-item .hero-content {
+    padding: 40px 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+/* Dark overlay for hero images */
+.hero-slider-section .hero-slide-item {
+  position: relative;
+  overflow: hidden;
+  /* ensure background covers (if not already set) */
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+/* overlay layer */
+.hero-slider-section .hero-slide-item::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* top:0; right:0; bottom:0; left:0; */
+  background: rgba(0, 0, 0, 0.45); /* adjust alpha for darker/lighter */
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* make content sit above overlay */
+.hero-slider-section .hero-slide-item .container,
+.hero-slider-section .hero-slide-item .hero-content {
+  position: relative;
+  z-index: 2;
+}
